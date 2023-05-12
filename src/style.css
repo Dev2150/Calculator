@@ -1,0 +1,134 @@
+#calculator {
+  background-color: black;
+  width: calc(80px * 4);
+}
+
+button {
+  position: absolute;
+  color: #fff !important;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px !important;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+#display, #display-formula {
+  font-family: 'Orbitron', sans-serif;
+  text-align: right;
+  color: #fff;
+  height: 2rem;
+}
+
+#display-formula {
+  color: orange;
+}
+
+.button-1x1 {
+  width: 80px;
+  height: 65px;
+}
+
+.button-2x1 {
+  width: 80px;
+  height: 130px;
+}
+
+.button-1x2 {
+  width: 160px;
+  height: 65px;
+}
+
+.darkGray {
+  background: #4d4d4d;
+}
+
+.gray {
+  background: #666;
+}
+
+.blue {
+  background: #046;
+}
+
+.red {
+  background: #ac3939;
+}
+
+#buttonContainer {
+  position: relative;
+  height: calc(65px * 5);
+}
+
+#clear {
+  top: calc(65px * 0);
+  left: calc(80px * 0);
+}
+
+#divide {
+  top: calc(65px * 0);
+  left: calc(80px * 2);
+}
+
+#multiply {
+  top: calc(65px * 0);
+  left: calc(80px * 3);
+}
+
+#seven {
+  top: calc(65px * 1);
+  left: calc(80px * 0);
+}
+#eight {
+  top: calc(65px * 1);
+  left: calc(80px * 1);
+}
+#nine {
+  top: calc(65px * 1);
+  left: calc(80px * 2);
+}
+#subtract {
+  top: calc(65px * 1);
+  left: calc(80px * 3);
+}
+
+#four {
+  top: calc(65px * 2);
+  left: calc(80px * 0);
+}
+#five {
+  top: calc(65px * 2);
+  left: calc(80px * 1);
+}
+#six {
+  top: calc(65px * 2);
+  left: calc(80px * 2);
+}
+#add {
+  top: calc(65px * 2);
+  left: calc(80px * 3);
+}
+
+#one {
+  top: calc(65px * 3);
+  left: calc(80px * 0);
+}
+#two {
+  top: calc(65px * 3);
+  left: calc(80px * 1);
+}
+#three {
+  top: calc(65px * 3);
+  left: calc(80px * 2);
+}
+#equals {
+  top: calc(65px * 3);
+  left: calc(80px * 3);
+}
+#zero {
+  top: calc(65px * 4);
+  left: calc(80px * 0);
+}
+#decimal {
+  top: calc(65px * 4);
+  left: calc(80px * 2);
+}
